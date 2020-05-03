@@ -48,7 +48,7 @@ function adCard(data, key) {
         <h3 id="adtitle" class="card-title">${data.title}</h3>
         <p id="addes" class="card-text">${data.description}</p>
         <h5 class="text-white" id="adPrice">RON ${data.price}</h5>
-        <button id="deleteBtn" type="button" class="btn btn-danger" onclick="deleteAd('${key}',this)">Delete</button>
+        <button id="deleteBtn" type="button" class="btn btn-danger" onclick="deleteAd('${key}',this)">Sterge</button>
         </div>
       </div>
     </div>
