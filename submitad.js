@@ -22,6 +22,8 @@ function submitAdForm() {
     var description = form.description.value;
     var category = form.category.options[form.category.selectedIndex].value;
     var price = form.price.value;
+    if (price < 1)
+        price *= -1;
 
     const ref = firebase.storage().ref();
     const file = document.getElementById("addimage").files[0]
