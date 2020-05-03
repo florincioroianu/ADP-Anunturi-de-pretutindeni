@@ -1,9 +1,3 @@
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-        .register('./service-worker.js')
-        .then(function() { console.log('Service Worker Registered'); });
-}
-
 function signOut() {
     firebase.auth().signOut().then(function() {}).catch(function(error) {
         console.log(error);
