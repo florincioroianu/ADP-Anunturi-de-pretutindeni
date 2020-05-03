@@ -1,0 +1,194 @@
+        .same {
+            width: 50%;
+            margin: 0px auto;
+        }
+        
+        .goToSignIn {
+            width: 50%;
+            margin: 0px auto;
+        }
+        
+        .alreadyAccount {
+            display: none;
+        }
+        
+        .wrongInfo {
+            display: none;
+        }
+        
+        .suh {
+            margin: 15% auto 2% auto;
+        }
+        
+        .but {
+            margin: 1% auto 1% auto;
+            margin: 0;
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        
+        .navbar {
+            background: #e27419;
+            height: 8%;
+        }
+        
+        .nav-link {
+            color: aliceblue;
+        }
+        
+        .navbar-brand {
+            color: aliceblue;
+            position: absolute;
+            left: 2%;
+        }
+        
+        .grid {
+            margin: 2% 0% 0% 0%;
+        }
+        
+        .cardstyling {
+            margin: 0% 0% 2% 0%;
+        }
+        
+        .validate {
+            max-height: 300px;
+            max-width: 300px;
+            overflow: scroll;
+        }
+        
+        .activeUser {
+            display: none;
+        }
+        
+        #postad {
+            display: none;
+        }
+        
+        #greetUser {
+            display: none;
+        }
+        
+        #search {
+            height: 70%;
+        }
+        
+        #searchBtn {
+            display: none;
+        }
+        
+        .userProfile {
+            display: none;
+        }
+        
+        .userAds {
+            display: none;
+        }
+        
+        .category {
+            display: none;
+        }
+        
+        .favourite {
+            display: none;
+        }
+        
+        .text-messages {
+            color: gray;
+        }
+        
+        small {
+            text-align: center;
+        }
+        
+        #adimg {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #adtitle {
+            text-align: center;
+            color: #e27419;
+        }
+        
+        #adPrice {
+            text-align: center;
+        }
+        
+        #addes {
+            text-align: left;
+            text-indent: 20px;
+            color: white;
+        }
+        
+        #adbtn {
+            position: relative;
+            left: 12%;
+        }
+        
+        html {
+            height: 100%;
+        }
+        
+        body {
+            min-height: 100%;
+            padding: 0;
+            margin: 0;
+            position: relative;
+        }
+        
+        body::after {
+            content: '';
+            display: block;
+            height: 100px;
+        }
+        
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 115px;
+            background-color: rgb(32, 36, 58);
+        }
+        
+        #adcard {
+            padding: 10px;
+            background: rgba(255, 255, 255, .2);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        }
+        
+        #adcard:hover {
+            opacity: 0.9;
+        }
+        
+        .navbar-brand {
+            color: white;
+        }
+        
+        #addimage {
+            color: white;
+        }
+        
+        .navbar-nav {
+            position: relative;
+            left: 15%;
+        }
+        
+        #navobj {
+            position: relative;
+            top: 10%;
+        }
+        
+        #deleteBtn {
+            padding: 8px 45px;
+            position: relative;
+            left: 25%;
+        }
+        
+        #deleteFromFav {
+            padding: 8px 25px;
+            position: relative;
+            left: 17%;
+        }
