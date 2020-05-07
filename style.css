@@ -3,6 +3,14 @@
             margin: 0px auto;
         }
         
+        .navbar-brand {
+            color: white;
+        }
+        
+        .navbar-toggler {
+            background-color: white;
+        }
+        
         .goToSignIn {
             width: 50%;
             margin: 0px auto;
@@ -30,19 +38,8 @@
             transform: translate(-50%, -50%);
         }
         
-        .navbar {
-            background: #e27419;
-            height: 8%;
-        }
-        
         .nav-link {
             color: aliceblue;
-        }
-        
-        .navbar-brand {
-            color: aliceblue;
-            position: absolute;
-            left: 2%;
         }
         
         .grid {
@@ -115,17 +112,13 @@
         
         #adPrice {
             text-align: center;
+            color: white;
         }
         
         #addes {
             text-align: left;
             text-indent: 20px;
             color: white;
-        }
-        
-        #adbtn {
-            position: relative;
-            left: 12%;
         }
         
         html {
@@ -165,17 +158,8 @@
             opacity: 0.9;
         }
         
-        .navbar-brand {
-            color: white;
-        }
-        
         #addimage {
             color: white;
-        }
-        
-        .navbar-nav {
-            position: relative;
-            left: 15%;
         }
         
         #navobj {
@@ -183,14 +167,12 @@
             top: 10%;
         }
         
-        #deleteBtn {
-            padding: 8px 45px;
-            position: relative;
-            left: 25%;
+        #adcard2 {
+            display: table;
+            text-align: center;
         }
         
-        #deleteFromFav {
-            padding: 8px 25px;
-            position: relative;
-            left: 17%;
+        .btn {
+            display: table-cell;
+            vertical-align: bottom;
         }

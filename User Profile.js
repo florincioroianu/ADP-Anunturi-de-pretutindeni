@@ -44,11 +44,11 @@ function adCard(data, key) {
     <div class="cardstyling col-lg-4 col-sm-6 portfolio-item" id="adcard">
       <div class="card h-100" id="adcard">
         <img id="adimg" class="validate card-img-top" src=${data.url} />
-        <div class="card-body">
-        <h3 id="adtitle" class="card-title">${data.title}</h3>
-        <p id="addes" class="card-text">${data.description}</p>
-        <h5 class="text-white" id="adPrice">RON ${data.price}</h5>
-        <button id="deleteBtn" type="button" class="btn btn-danger" onclick="deleteAd('${key}',this)">Sterge</button>
+        <div class="card-body text-center">
+            <h3 id="adtitle" class="card-title">${data.title}</h3>
+            <p id="addes" class="card-text">${data.description}</p>
+            <h5 id="adPrice">RON ${data.price}</h5>
+            <button type="button" class="btn btn-danger" onclick="deleteAd('${key}',this)">Sterge</button>
         </div>
       </div>
     </div>

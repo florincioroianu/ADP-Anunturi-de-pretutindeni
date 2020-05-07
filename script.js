@@ -25,14 +25,14 @@ function adCard(data, key) {
         return `
     <div class="cardstyling col-lg-4 col-sm-6 portfolio-item" id="adcard">
       <div class="card h-100" id="adcard">
-      <small class="text-white">Anunt postat de catre ${data.displayName}</small>
-      <img id="adimg" class="validate card-img-top" src=${data.url} />
-      <div class="card-body">
-      <h3 id="adtitle" class="card-title">${data.title}</h3>
-      <p id="addes" class="card-text">${data.description}</p>
-      <h5 class="text-white" >RON ${data.price}</h5>
-      <button id="adbtn" type="button" class="btn btn-primary" onclick="signInFirst()">Chat</button>
-      <button id="adbtn" type="button" class="btn btn-warning" onclick="signInFirst()">Adauga la favorite</button>
+        <small class="text-white">Anunt postat de catre ${data.displayName}</small>
+        <img id="adimg" class="validate card-img-top" src=${data.url} />
+        <div class="card-body text-center">
+            <h3 id="adtitle" class="card-title">${data.title}</h3>
+            <p id="addes" class="card-text">${data.description}</p>
+            <h5 class="text-white" >RON ${data.price}</h5>
+            <button  type="button" class="btn btn-primary" onclick="signInFirst()">Chat</button>
+            <button  type="button" class="btn btn-warning" onclick="signInFirst()">Adauga la favorite</button>
         </div>
       </div>
     </div>
@@ -41,16 +41,16 @@ function adCard(data, key) {
         return `
   <div class="cardstyling col-lg-4 col-sm-6 portfolio-item" id="adcard">
     <div class="card h-100" id="adcard" >
-      <small class="text-white">Anunt postat de catre ${data.displayName}</small>
-      <img id="adimg" class="validate card-img-top" src=${data.url} />
-      <div class="card-body">
-      <h3 id="adtitle" class="card-title">${data.title}</h3>
-      <h4 class="category">${data.category}</h4>
-      <p id="addes" class="card-text">${data.description}</p>
-      <h5 class="text-white" id="adPrice">RON ${data.price}</h5>
-      <button id="adbtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModel" data-whatever="@getbootstrap" onclick="adChat('${key}',this)">Chat</button>
-      <button id="adbtn" type="button" class="btn btn-warning" onclick="addToFavourites(this)">Adauga la favorite</button>
-    </div>
+        <small class="text-white">Anunt postat de catre ${data.displayName}</small>
+        <img id="adimg" class="validate card-img-top" src=${data.url} />
+        <div class="card-body text-center ">
+            <h3 id="adtitle" class="card-title">${data.title}</h3>
+            <h4 class="category">${data.category}</h4>
+            <p id="addes" class="card-text">${data.description}</p>
+            <h5 class="text-white" id="adPrice">RON ${data.price}</h5>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModel" data-whatever="@getbootstrap" onclick="adChat('${key}',this)">Chat</button>
+            <button type="button" class="btn btn-warning" onclick="addToFavourites(this)">Adauga la favorite</button>
+        </div>
     </div>
   </div>
 `
